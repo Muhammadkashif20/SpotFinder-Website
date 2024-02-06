@@ -506,6 +506,41 @@ input {
 
 }
 .busines-partner{
-  width: 1140;
+  width: 1080px;
   margin-top: -100px;
+  border-radius: 10px;
+  height: 600px;
+  position: absolute;
+
+  
 }
+.business-pic{
+  border-radius: 15px;
+  height: 600px;
+  width: 1150px;
+  position: relative;
+  top: -600px;
+  right: 30px;
+
+}
+.partner-heading{
+ 
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bolder;
+  position: relative;
+  top: -1050px;
+  text-align: center;
+  
+}
+.partner-text{
+  
+  font-size: 30px;
+  color: #ffffff;
+  position: relative;
+  top: -1040px;
+  text-align: center;
+
+}
+
+
