@@ -1,0 +1,480 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+}
+.container {
+}
+.navbar {
+  border: 1px solid rgba(53, 53, 53, 0.165);
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  position: fixed;
+  background-color: white;
+}
+img {
+  margin-right: 140px;
+  margin-left: 30px;
+  margin-top: 1px;
+  cursor: pointer;
+  margin-bottom: -18px;
+}
+a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: rgba(46, 46, 46, 0.724);
+  font-size: 19px;
+}
+a:hover {
+  color: red;
+}
+.fa-solid {
+  padding-left: 170px;
+  font-size: 27px;
+}
+.fa-solid:hover {
+  color: wheat;
+}
+.nav-login {
+  margin-left: 20px;
+}
+.nav-register {
+  margin-left: 20px;
+  color: white;
+  background-color: rgba(219, 9, 9, 0.891);
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 30px;
+}
+.nav-register:hover {
+  color: white;
+}
+.parking-manage {
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+}
+.categorize {
+  padding-top: 70px;
+  background-color: rgba(96, 194, 236, 0.09);
+  width: 1150px;
+  height: 540px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.categorize-text1 {
+  font-size: 45px;
+  margin-left: 70px;
+}
+.categorize-text2 {
+  font-size: 45px;
+  color: red;
+}
+p {
+  margin-left: 70px;
+  font-size: 18px;
+}
+input {
+  margin-left: -150px;
+  margin-top: 25px;
+  border: 2px solid rgb(240, 3, 3);
+  padding: 20px;
+  width: 320px;
+  border-radius: 3px;
+}
+.input-car-img {
+  position: relative;
+  left: 44px;
+}
+
+::placeholder {
+  padding-left: 39px;
+  font-size: 20px;
+  color: black;
+}
+
+.vehicals {
+  padding: 16px;
+  width: 330px;
+  margin-left: -125px;
+}
+.fa-car {
+  position: relative;
+  right: 80px;
+  top: 2px;
+  font-size: 19px;
+}
+.Check-In {
+  width: 130px;
+  border-radius: 3px;
+  margin-left: -155px;
+}
+.Check-Out {
+  width: 140px;
+  border-radius: 3px;
+  margin-left: -222px;
+}
+.input-car-img2 {
+  position: relative;
+  left: -25px;
+}
+.booking-text {
+  color: red;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.categorize-valid-date {
+  background-color: rgba(249, 9, 9, 0.807);
+  border-radius: 30px;
+  padding: 20px;
+  width: 260px;
+  text-align: center;
+  margin-left: 70px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+.categorize-car-img {
+  position: relative;
+  bottom: 440px;
+  left: 480px;
+  height: 450px;
+  width: 530px;
+  z-index: auto;
+}
+.container-parking {
+  position: absolute;
+}
+.parking-text {
+  text-align: center;
+}
+.parking-heading {
+  color: black;
+  font-size: 50px;
+  margin-left: 400px;
+}
+.parking-manage-Paragraph {
+  color: grey;
+  font-size: 25px;
+  margin-left: 400px;
+}
+.Parking-card1 {
+  border: 1px solid rgba(47, 46, 46, 0.485);
+  width: 340px;
+  height: 360px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+.Parking-card2 {
+  border: 1px solid rgba(47, 46, 46, 0.485);
+  width: 340px;
+  height: 360px;
+  position: relative;
+  left: 400px;
+  bottom: 335px;
+  border-radius: 10px;
+}
+.Parking-card3 {
+  border: 1px solid rgba(47, 46, 46, 0.485);
+  width: 340px;
+  height: 360px;
+  position: relative;
+  left: 400px;
+  bottom: 335px;
+  border-radius: 10px;
+}
+.cards-img {
+  width: 340px;
+  height: 190px;
+  margin-left: -0px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.card-1-para {
+  color: black;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.card-2-para {
+  color: black;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+.card-3-para {
+  color: black;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+.parking {
+  background-color: rgba(249, 9, 9, 0.807);
+  border-radius: 30px;
+  padding: 15px;
+  width: 130px;
+  text-align: center;
+  margin-left: 90px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.second-time-cards {
+  background-color: rgba(220, 19, 19, 0.908);
+  margin-top: -250px;
+  width: 1150px;
+  height: 640px;
+  border-radius: 10px;
+  position: absolute;
+}
+.heading-cards {
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.para {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px;
+}
+.card1 {
+  width: 320px;
+  height: 350px;
+  background-color: #ffffff;
+  margin-left: 30px;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.heading1 {
+  padding-right: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  color: black;
+  padding-left: 115px;
+}
+.heading2 {
+  padding-right: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  color: black;
+  padding-left: 115px;
+}
+.heading3 {
+  padding-right: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  color: black;
+  padding-left: 80px;
+}
+.text1 {
+  color: rgba(70, 69, 69, 0.895);
+  padding-left: 25px;
+  margin-top: 50px;
+}
+.text2 {
+  color: rgba(70, 69, 69, 0.895);
+  padding-left: 30px;
+  margin-top: 50px;
+}
+.text3 {
+  color: rgba(70, 69, 69, 0.895);
+  padding-left: 30px;
+  margin-top: 50px;
+}
+.card2 {
+  width: 320px;
+  height: 350px;
+  background-color: #ffffff;
+  margin-left: 60px;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.card3 {
+  width: 320px;
+  height: 350px;
+  background-color: #ffffff;
+  margin-left: 60px;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.card-2-img {
+  position: relative;
+  left: 52px;
+  top: 30px;
+}
+.Airport-parking {
+  position: absolute;
+}
+.Airport-Heading {
+  font-size: 50px;
+  color: black;
+  position: relative;
+  top: 800px;
+  margin-left: 500px;
+}
+
+.Air-card1 {
+  position: relative;
+  bottom: -875px;
+  left: 60px;
+  border: 1px solid rgba(128, 128, 128, 0.179);
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.Air-card2 {
+  position: relative;
+  bottom: -875px;
+  left: 100px;
+  border: 1px solid rgba(128, 128, 128, 0.179);
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.Air-card3 {
+  position: relative;
+  top: 875px;
+  left: 140px;
+  border: 1px solid rgba(128, 128, 128, 0.179);
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.Air-card4 {
+  position: relative;
+  top:475px;
+  right: -950px;
+  border: 1px solid rgba(128, 128, 128, 0.179);
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.airheading{
+  position: relative;
+  top: 50px;
+  font-size: 21px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.airtext{
+  position: relative;
+  top: 80px;
+  color: rgb(110, 108, 108);  
+  text-align: center;
+}
+.airbooking{
+  position: relative;
+  top: 120px;
+  left: 55px;
+  width: 100px;
+  padding: 15px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: rgba(220, 36, 36, 0.963);
+  text-align: center;
+  font-size: medium;
+  cursor: pointer;
+}
+.air-images {
+  position: relative;
+  right: 30px;
+  margin-top: 0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 200px;
+
+}
+.Comments{
+  position: absolute;
+}
+.left-box{
+  border: 1px solid rgb(28, 28, 28);
+  margin-top: 570px;
+  margin-left: 60px;
+  border-radius: 5px;
+  width: 530px;
+  height: 270px;
+}
+.fa-circle-user{
+  padding-top: 40px;
+  padding-left: 30px;
+  font-size:50PX;
+}
+.comment-text{
+  color: black;
+  font-size: 20px;
+  position: relative;
+  left: 110px;
+  bottom: 45px;
+  font-weight: bolder;
+
+  
+}
+.stars{
+  position: relative;
+  bottom: 30px;
+  left: 40px;
+}
+.text-comment{
+  padding-left: 20px;
+  font-size: large;
+  color: gray;
+}
+.textbox{
+  color: red;
+  display: block;
+  padding-top: 20px;
+}
+.read-text{
+  font-size: 50px;
+  margin-left: 430px;
+  margin-top: 970px;
+}
+.read-text2{
+  margin-left: 65px;
+  font-size: 25px;
+  margin-top: 40px;
+}
+ .Interesting-card1 {
+  border: 1px solid rgba(47, 46, 46, 0.485);
+  width: 340px;
+  height: 360px;
+  margin-left: 70px;
+  border-radius: 10px;
+  
+}
+.Interesting-card2 {
+  border: 1px solid rgba(47, 46, 46, 0.485);
+  width: 340px;
+  height: 360px;
+  position: relative;
+  left: 400px;
+  bottom: 335px;
+  border-radius: 10px;
+}
+.Interesting-card3 {
+  border: 1px solid rgba(47, 46, 46, 0.485);
+  width: 340px;
+  height: 360px;
+  position: relative;
+  left: 400px;
+  bottom: 335px;
+  border-radius: 10px;
+}
