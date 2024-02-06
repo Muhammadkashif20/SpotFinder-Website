@@ -516,7 +516,7 @@ input {
 }
 .business-pic{
   border-radius: 15px;
-  height: 600px;
+  height: 540px;
   width: 1150px;
   position: relative;
   top: -600px;
@@ -541,6 +541,20 @@ input {
   top: -1040px;
   text-align: center;
 
+}
+.partner-background{
+  width: 180px;
+  padding: 25px;
+  position: relative;
+  top: -1000px;
+  left: 450px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: red;
+  border-radius: 30px;
+  
 }
 
 
