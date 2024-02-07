@@ -2,15 +2,22 @@
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0px;
+
 }
-.container {
+.parent-container {
+  position: relative;
+  
+
 }
+
 .navbar {
+  z-index: 100;
   border: 1px solid rgba(53, 53, 53, 0.165);
   width: 100%;
   padding: 20px;
-  position: absolute;
-  position: fixed;
+  position: sticky;
+  position:fixed;
+  top: 0;
   background-color: white;
 }
 img {
@@ -28,7 +35,7 @@ a {
 }
 a:hover {
   color: red;
-}
+}   
 .fa-solid {
   padding-left: 170px;
   font-size: 27px;
@@ -76,7 +83,7 @@ p {
   margin-left: 70px;
   font-size: 18px;
 }
-input {
+.input-field{
   margin-left: -150px;
   margin-top: 25px;
   border: 2px solid rgb(240, 3, 3);
@@ -90,15 +97,18 @@ input {
 }
 
 ::placeholder {
-  padding-left: 39px;
-  font-size: 20px;
-  color: black;
+  
+  padding-left: 32px;
+  font-size: 15px;
+  color: rgb(45, 45, 45);
 }
 
 .vehicals {
   padding: 16px;
   width: 330px;
   margin-left: -125px;
+  margin-top: 20px;
+  border: 2px solid rgb(240,3,3) ;
 }
 .fa-car {
   position: relative;
@@ -108,13 +118,19 @@ input {
 }
 .Check-In {
   width: 130px;
+  padding: 20px;
   border-radius: 3px;
   margin-left: -155px;
+  margin-top: 20px;
+  border: 2px solid rgb(240,3,3) ;
 }
 .Check-Out {
+  padding: 20px;
+  margin-top: 20px;
   width: 140px;
   border-radius: 3px;
   margin-left: -222px;
+  border: 2px solid rgb(240,3,3) ;
 }
 .input-car-img2 {
   position: relative;
@@ -363,7 +379,7 @@ input {
   width: 250px;
   height: 400px;
   border-radius: 10px;
-  display: inline-block;
+
 }
 .airheading{
   position: relative;
@@ -556,5 +572,143 @@ input {
   border-radius: 30px;
   
 }
+.Subscribe-box {
+  width: 1150px;
+  height: 250px;
+  background-color: rgba(145, 219, 248, 0.127);
+  margin-top: -140px;
+  position: absolute;
+  border-bottom: 4px solid red;
+  
+}
+
+.box-heading {
+  position: relative;
+  top: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 400px;
+}
+
+.box-text {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: large;
+  color: rgb(113, 113, 113);
+}
+
+.emailfield input[type="email"],
+.emailfield input[type="button"] {
+  padding: 10px;
+  position: relative;
+  left: 400px;
+}
+.footer{
+  display: flex;
+  position: absolute;
+  position: relative;
+  top: 940px;
+  margin-left: 60px;
+  gap: 48px;
+  
+}
+
+.footer-card1{
+
+ /* width: 20px; */
+ /* border: 1px solid black; */
+ /* height: 300px; */
+ line-height: 25px;
+ 
+ 
+}
+.heading{
+  color: red;
+  font-size: 20px;
+  margin-left: 26px;
+}
+
+.text{
+  font-size: 15px;
+  color:rgb(150, 150, 150);
+  font-weight:bold;
+  position: relative;
+  top: 1000px;
+  right: 1600px;
+}
+.footer-card2{
+  width: 400px;
+ height: 300px;
+ line-height: 20px;
+}
+.text{
+  font-size: 15px;
+  color:rgb(150, 150, 150);
+  font-weight:bold;
+  position: relative;
+  top: 1000px;
+  margin-left: -960px;
+  border: 1px solid rgb(0, 0, 0);
+  
+}
+.footer-card3{
+  width: 250px;
+ height: 300px;
+ line-height: 20px;
+}
+
+  .text{
+    font-size: 15px;
+    color:rgb(150, 150, 150);
+    font-weight:bold;
+    position: relative;
+    top: 1000px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: -960px;
+  }
+  .footer-card4{
+    width: 250px;
+    height: 300px;
+    
+  }
+.text{
+  font-size: 15px;
+  color:rgb(150, 150, 150);
+  font-weight:bold;
+  position: relative;
+  top: 1000px;
+  margin-left: -960px;
+
+}
+.text-card4{
+  color: red;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+.cards-icons{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+ 
+  
+}
+.last-line-footer{
+  border-top: 2px solid rgb(4, 4, 114);
+  position: relative;
+  top: 850px;
+  margin-left: 60px;
+  text-align: center;
+  color: rgb(96, 95, 95);
+  font-size: 17px;
+}
+
+
+
+
+
+
 
 
